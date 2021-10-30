@@ -7,6 +7,8 @@ import {
     Link
   } from "react-router-dom";
 
+  import icon from "../restaurant.png"
+
 
 
 
@@ -15,9 +17,10 @@ export default function NavBar({ok}) {
     console.log(ok)
     return (
         <div>
-            <Navbar bg="light" expand={false}>
+            <Navbar bg="dark" variant="dark" expand={false}>
   <Container fluid>
-    <Navbar.Brand href="#">Navbar Offcanvas</Navbar.Brand>
+    
+    <Navbar.Brand href="#"><img className="icon" src={icon}/></Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"

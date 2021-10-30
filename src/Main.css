@@ -2,8 +2,9 @@
     width: 100%;
 }
 .heroImg{
-    width: 100%;
+    width: 90%;
     height: 100vh;
+    border-radius: 10rem;
 }
 
 @media only screen and (max-width: 700px) {
@@ -23,7 +24,11 @@
     /* position: absolute; */
     bottom: 70%;
     right: 60%;
-    background-color:rgb(40 28 28 / 68%);
+    background-color:#2d333d;
+    border-style:solid;
+    border-color: white #2d333d white #2d333d;
+
+    
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -33,6 +38,12 @@
     font-size: 3rem;
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 1rem
+;
+    margin-top: 1rem
+;
   }
 
   .rela{
@@ -40,6 +51,6 @@
   }
 
   .h1Prop{
-
+color:white;
     margin-top: 1rem;
   }
