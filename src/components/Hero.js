@@ -210,6 +210,7 @@ if(input.value !=null ){
 
     function hap(){
 setShow(true)
+window.scrollTo(0, 0)
 
     }
 
