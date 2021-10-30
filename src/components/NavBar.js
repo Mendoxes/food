@@ -1,7 +1,18 @@
 import React from 'react'
 import { Button, Card, Container,Navbar,Offcanvas,NavDropdown,Nav,Form,FormControl } from 'react-bootstrap';
+import {
+    BrowserRouter as Router,
+    Switch,
+    Route,
+    Link
+  } from "react-router-dom";
 
-export default function NavBar() {
+
+
+
+export default function NavBar({ok}) {
+
+    console.log(ok)
     return (
         <div>
             <Navbar bg="light" expand={false}>
@@ -18,8 +29,8 @@ export default function NavBar() {
       </Offcanvas.Header>
       <Offcanvas.Body>
         <Nav className="justify-content-end flex-grow-1 pe-3">
-          <Nav.Link href="#action1">Home</Nav.Link>
-          <Nav.Link href="#action2">Link</Nav.Link>
+          <Nav.Link href="/">Home</Nav.Link>
+          <Nav.Link href="/dishSelect">Link</Nav.Link>
           <NavDropdown title="Dropdown" id="offcanvasNavbarDropdown">
             <NavDropdown.Item href="#action3">Action</NavDropdown.Item>
             <NavDropdown.Item href="#action4">Another action</NavDropdown.Item>

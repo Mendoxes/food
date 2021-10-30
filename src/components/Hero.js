@@ -247,7 +247,7 @@ setShow(true)
 
 </div>
 {pass&&!show&&<Button onClick={hap} variant="primary" >See more</Button>}
-<Button onClick={() => window.location.reload(false)} >Back to Search</Button>
+{pass&&<Button onClick={() => window.location.reload(false)} >Back to Search</Button>}
 {/* <button onClick={postData}>POST DATA</button>
 <button onClick={fetchData2}>fetch data 2</button> */}
 
