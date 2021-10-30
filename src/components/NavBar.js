@@ -20,7 +20,7 @@ export default function NavBar({ok}) {
             <Navbar bg="dark" variant="dark" expand={false}>
   <Container fluid>
     
-    <Navbar.Brand href="#"><img className="icon" src={icon}/></Navbar.Brand>
+    <Navbar.Brand href="/"><img className="icon" src={icon}/></Navbar.Brand>
     <Navbar.Toggle aria-controls="offcanvasNavbar" />
     <Navbar.Offcanvas
       id="offcanvasNavbar"
