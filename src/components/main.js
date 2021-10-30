@@ -17,6 +17,8 @@ export default function main() {
           <Fade> 
               
               <h1 className="h1Prop">You are what you eat</h1>
+
+              <hr className="hr"/>
                <div className="vid">
 
             <video className="videoClass" loop autoPlay muted>

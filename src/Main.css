@@ -12,6 +12,11 @@
     .heroImg{height: auto;}
 }
 
+.hr{
+    width: 93%;
+    margin:0 auto;
+    margin-top:2rem;
+}
 .videoClass{
     /* width: 2rem; */
     height: 12rem;
