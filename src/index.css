@@ -15,9 +15,9 @@ code {
     monospace;
 }
 
-.scrollable-element {
-  scrollbar-color: red yellow; /* red is for the thumb and yellow is for the track */
-}
+/* .scrollable-element {
+  scrollbar-color: white;
+} */
 
 
 .icon{

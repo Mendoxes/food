@@ -221,14 +221,15 @@ setShow(true)
 
 
     return (
-        <div onKeyPress={handleKeypress}>
+        <div className="mainDiv" onKeyPress={handleKeypress}>
             
             {/* {state} */}
             
-
-            {!pass&&<form >
+            {!pass&&<p>Input dish:</p>}
+            {!pass&&<form className="formMain">
+          
   <label>
-    Name:
+  
     <input id="input"  name="name"  defaultValue=""/>
     {/* fixing a bug where input auto-submit to path after clicking enter */}
     <input type="text" style={{display: "none"}} />   
@@ -237,7 +238,7 @@ setShow(true)
 
 
 </form>}
-{!pass&&<button onClick={handleSubmit}  >Click me</button>}
+{!pass&&<Button variant="light" onClick={handleSubmit}  >Click me</Button>}
 
 <div className="main_component">
 {/* {!pass&&pass2&&<MakeList></MakeList>} */}
