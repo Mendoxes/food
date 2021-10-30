@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+  /* background: linear-gradient(141deg, #ffbbbb 10%, #ffbbbb 6%, #ffffff 95%); */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow; /* red is for the thumb and yellow is for the track */
 }
