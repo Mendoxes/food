@@ -27,7 +27,7 @@ export default function main() {
 
 <div>
 <p>"You are what you eat" that is profound sentence that everybody should take seriously</p>
-<div style={{marginBottom:20}}> See our "recipes search" tool it will help you find dish you like:</div><Button variant="outline-light">Our </Button>
+<div style={{marginBottom:20}}> See our "recipes search" tool it will help you find dish you like:</div><Button href="/dishSelect" variant="outline-light"> Dish searching tool</Button>
           </div>
             </div></Fade>
         </div>
