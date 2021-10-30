@@ -1,0 +1,7 @@
+.main_component{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: start;
+    align-items: center;
+}
