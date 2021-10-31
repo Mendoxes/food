@@ -5,7 +5,10 @@ import vid from "../vid.mp4"
 import Fade from 'react-reveal/Fade';
 import { Button, Card } from 'react-bootstrap';
 
-export default function main() {
+
+export default function Main() {
+
+ 
     
     return (
         <div className="heroDiv" >
@@ -32,6 +35,7 @@ export default function main() {
 <div style={{marginBottom:20}}> See our "recipes search" tool it will help you find dish you like:</div><Button href="/dishSelect" variant="outline-light"> Dish searching tool</Button>
           </div>
             </div></Fade>
+           
         </div>
     )
 }

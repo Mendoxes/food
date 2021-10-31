@@ -2,13 +2,14 @@
 import NavBar from "./components/NavBar.js"
 import './App.css';
 import Hero from "./components/Hero.js"
-import Main from "./components/main.js"
+import Main from "./components/Main.js"
 import {
   BrowserRouter as Router,
   Switch,
   Route,
   Link
 } from "react-router-dom";
+import Specific from "./components/Specific.js"
 
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
       <Router>
       <Route exact path="/">
       <Main></Main>
+      </Route>
+      <Route path="/specific">
+      <Specific></Specific>
       </Route> 
       <Route path="/dishSelect">
       <Hero></Hero>

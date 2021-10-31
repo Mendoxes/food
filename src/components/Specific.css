@@ -1,0 +1,14 @@
+.flexi{
+    display:flex;
+    justify-content: space-around;
+}
+
+#inp1{
+    margin:0.5rem;
+}
+
+.cars{margin:1rem;}
+
+.main1{
+    margin:2rem;
+}
