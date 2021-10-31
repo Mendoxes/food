@@ -14,8 +14,8 @@ export default function Main() {
     return (
         <div className="heroDiv" >
             <div className="rela">
-           <Fade delay="500"> <p className="text-on-image"> Food is everything</p></Fade>
-            <Fade delay="200"><img className="heroImg" src={hero} /></Fade>
+           <Fade delay={500}> <p className="text-on-image"> Food is everything</p></Fade>
+            <Fade delay={200}><img className="heroImg" src={hero} /></Fade>
             
             </div>
           <Fade> 
