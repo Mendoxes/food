@@ -62,14 +62,22 @@ for (let i = 0; i<=maxInp.hits.length -1; i++){
 
 
 }
+const handleKeypress = e => {
+      
+       
+    if (e.code === "Enter") {
+        onButtonClick()
+    }
+  };
+
 
     return (<div>
-        <div className="main1" >
+        <div className="main1" onKeyPress={handleKeypress} >
             <div>
            
             <label for="inp1">Max kcal:  </label>
             <input id="inp1" type="number" ref={inputEl} required placeholder="example: 1000" />
-      <Button variant="light" onClick={onButtonClick}>Calorie input</Button>
+      
      </div>
 <div className="cars">
       <label for="cars">Choose type of meal:</label>
@@ -87,7 +95,9 @@ for (let i = 0; i<=maxInp.hits.length -1; i++){
 <button onClick={ok2}> on click</button>
 
 </div> */}
+
 </div>
+<Button variant="light" onClick={onButtonClick}>Sumbit</Button>
 {tru&&<MakeRec prop={maxInp.hits} state={state}></MakeRec>}
 
         </div>

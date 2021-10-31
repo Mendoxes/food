@@ -10,6 +10,7 @@ import {
   Link
 } from "react-router-dom";
 import Specific from "./components/Specific.js"
+import Footer from "./Footer.js"
 
 
 function App() {
@@ -30,6 +31,7 @@ function App() {
 
   
      </Router>
+     <Footer></Footer>
     </div>
   );
 }
