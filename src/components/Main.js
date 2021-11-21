@@ -45,7 +45,7 @@ export default function Main() {
 
 <div className="superC">
 <p >An ideal daily intake of calories varies depending on age, metabolism and levels of physical activity, among other things. Generally, the recommended daily calorie intake is 2,000 calories a day for women and 2,500 for men. Make sure you are not suprassing it by checking our "Calorie-hunt" option</p>
-<div style={{marginBottom:20}}> See our "Calorie-hunt"</div><Button href="/dishSelect" variant="outline-light"> Dish searching tool</Button>
+<div style={{marginBottom:20}}> See our "Calorie-hunt"</div><Button href="/specific" variant="outline-light"> Calorie hunter</Button>
 </div>
 <video className="videoClass" loop autoPlay muted>
 <source src={vid2} type="video/mp4"/>
